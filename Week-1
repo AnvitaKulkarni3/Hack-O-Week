@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <title>Your Name | Portfolio</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+      <style>
+        body {
+          margin: 0;
+          font-family: Arial, sans-serif;
+          background-color: #f4f4f4;
+          color: #333;
+          line-height: 1.6;
+        }
+    
+        header {
+          background: #222;
+          color: white;
+          padding: 40px 20px;
+          text-align: center;
+        }
+    
+        header h1 {
+          margin-bottom: 10px;
+        }
+    
+        nav {
+          background: #444;
+          padding: 10px;
+          text-align: center;
+        }
+    
+        nav a {
+          color: white;
+          margin: 0 15px;
+          text-decoration: none;
+          font-weight: bold;
+        }
+    
+        section {
+          padding: 40px 20px;
+          max-width: 900px;
+          margin: auto;
+        }
+    
+        h2 {
+          color: #222;
+          margin-bottom: 20px;
+        }
+    
+        .projects {
+          display: grid;
+          grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+          gap: 20px;
+        }
+    
+        .card {
+          background: white;
+          padding: 20px;
+          border-radius: 8px;
+        }
+    
+      </style>
+    </head>
+    <body>
+    
+      <header>
+        <h1>Anvita Kulkarni</h1>
+        <p>Student | Beginner Web Developer</p>
+      </header>
+    
+      <nav>
+        <p>About | Projects | Skills | Achievements | Contact</p>
+      </nav>
+    
+      <section id="about">
+        <h2>About Me</h2>
+        <p>
+          I'm a student learning web development. I enjoy creating websites
+          using HTML, CSS, and JavaScript. This is my personal portfolio website.
+        </p>
+      </section>
+    
+      <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects">
+          <div class="card">
+            <h3>Project 1</h3>
+            <p>A simple travel website made using HTML and CSS.</p>
+          </div>
+    
+          <div class="card">
+            <h3>Library-Management System</h3>
+            <p>A user-friendly system to keep record of available, borrowed, upcoming books as well as late fees, damage fees, etc.</p>
+          </div>
+    
+          <div class="card">
+            <h3>Student Task Manager (To-Do App)</h3>
+            <p>A task manager web app that allows users to add, complete, and delete tasks. Built using HTML, CSS, and JavaScript.</p>
+          </div>
+        </div>
+      </section>
+    
+      <section id="skills">
+        <h2>Technical Skills</h2>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>Problem Solving</li>
+        </ul>
+        <h2>Other Skills</h2>
+        <ul>
+          <li>Comunication skills</li>
+          <li>Team Work</li>
+          <li>Leadership Skills</li>
+        </ul>
+      </section>
+    
+      <section id="achievements">
+      <h2>Achievements</h2>
+      <ul>
+        <li>Completed HTML & CSS fundamentals and built multiple mini projects</li>
+        <li>Developed a personal portfolio website from scratch</li>
+        <li>Built a JavaScript-based Task Manager using local storage</li>
+        <li>Participated in school-level coding and tech events</li>
+        <li>Organised various cultural and technical activities</li>
+      </ul>
+    </section>
+    
+    
+      <section id="contact">
+        <h2>Contact Details</h2>
+        <p>Phone: 9876543210</p>
+        <p>Email: avk@gmail.com</p>
+        <p>GitHub: github.com/anvita</p>
+        <p>Linkedin: linkedin.com/anvita</p>
+      </section>
+    
+    </body>
+    </html>
